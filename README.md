@@ -9,7 +9,7 @@ This is a set of Restful Missions for Cherry Framework: **[Cherry](https://githu
 Making use of the awesome **[Rest-Assured](https://github.com/jayway/rest-assured)** library.
 
 Have a look at our full documentation found at:           
-[http://magentys.github.io/cherry](http://magentys.github.io/cherry).
+[http://cherryframe.work](http://cherryframe.work).
             
             
 * Developers: [Kostas Mamalis](@mamalisk)
