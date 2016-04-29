@@ -25,9 +25,6 @@ public class Get implements Mission<Response> {
         return this;
     }
 
-    public static Get get(String url, Object... parameters) {
-        return new Get(url, parameters);
-    }
 
     @Override
     public Response accomplishAs(Agent agent) {
