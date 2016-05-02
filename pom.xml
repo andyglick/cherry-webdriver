@@ -2,11 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.magentys</groupId>
-  <artifactId>cherry-rest</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <artifactId>cherry-webdriver</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>cherry-rest</name>
+  <name>cherry-webdriver</name>
   <url>http://maven.apache.org</url>
 
   <licenses>
@@ -17,10 +17,9 @@
     </license>
   </licenses>
 
-<<<<<<< HEAD
+
   <description>A syntactical sugar project for BDD Web-oriented tests</description>
-=======
-  <description>A syntactical sugar project for BDD oriented tests</description>
+
 
   <developers>
     <developer>
@@ -31,8 +30,8 @@
   </developers>
 
   <scm>
-    <developerConnection>scm:git:https://github.com/MagenTys/cherry-rest</developerConnection>
-    <url>https://github.com/MagenTys/cherry-rest</url>
+    <developerConnection>scm:git:https://github.com/MagenTys/cherry-webdriver</developerConnection>
+    <url>https://github.com/MagenTys/cherry-webdriver</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -48,7 +47,6 @@
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
     </repository>
   </distributionManagement>
->>>>>>> 6eaadcab00557616f91fdf32d4fd2de3acb7f50c
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -67,71 +65,30 @@
     <mockito.version>2.0.49-beta</mockito.version>
   </properties>
 
-<<<<<<< HEAD
-  <developers>
-    <developer>
-      <name>Kostas Mamalis</name>
-      <id>mamalisk</id>
-      <organizationUrl>http://magentys.io</organizationUrl>
-    </developer>
-  </developers>
 
-  <scm>
-    <developerConnection>scm:git:https://github.com/MagenTys/cherry-java8</developerConnection>
-    <url>https://github.com/MagenTys/cherry-java8</url>
-    <tag>HEAD</tag>
-  </scm>
 
-  <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh.snap</id>
-      <name>Main Maven Repo - Snapshots</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <repository>
-      <id>ossrh</id>
-      <name>Main Maven Repo - Releases</name>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-    </repository>
-  </distributionManagement>
-
-=======
->>>>>>> 6eaadcab00557616f91fdf32d4fd2de3acb7f50c
   <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-<<<<<<< HEAD
-        <version>3.1</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-=======
+
         <version>${maven-compiler-plugin.version}</version>
         <configuration>
           <source>1.${java.level}</source>
           <target>1.${java.level}</target>
->>>>>>> 6eaadcab00557616f91fdf32d4fd2de3acb7f50c
         </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
-<<<<<<< HEAD
-        <version>2.5.3</version>
-=======
         <version>${maven-release-plugin.version}</version>
->>>>>>> 6eaadcab00557616f91fdf32d4fd2de3acb7f50c
       </plugin>
       <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>nexus-staging-maven-plugin</artifactId>
-<<<<<<< HEAD
-        <version>1.6.3</version>
-=======
+
         <version>${nexus-staging-maven-plugin.version}</version>
->>>>>>> 6eaadcab00557616f91fdf32d4fd2de3acb7f50c
         <extensions>true</extensions>
         <configuration>
           <serverId>ossrh</serverId>
@@ -142,11 +99,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
-<<<<<<< HEAD
-        <version>2.2.1</version>
-=======
         <version>${maven-source-plugin.version}</version>
->>>>>>> 6eaadcab00557616f91fdf32d4fd2de3acb7f50c
         <executions>
           <execution>
             <id>attach-sources</id>
@@ -159,11 +112,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
-<<<<<<< HEAD
-        <version>2.9.1</version>
-=======
         <version>${maven-javadoc-plugin.version}</version>
->>>>>>> 6eaadcab00557616f91fdf32d4fd2de3acb7f50c
         <executions>
           <execution>
             <id>attach-javadocs</id>
@@ -176,11 +125,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
-<<<<<<< HEAD
-        <version>1.5</version>
-=======
         <version>${maven-gpg-plugin.version}</version>
->>>>>>> 6eaadcab00557616f91fdf32d4fd2de3acb7f50c
         <executions>
           <execution>
             <id>sign-artifacts</id>
@@ -191,11 +136,6 @@
             <configuration>
               <keyname>BCF7D3CB</keyname>
               <passphrase>mat2414</passphrase>
-<<<<<<< HEAD
-=======
-              <!--<<homedir>/Users/kostasmamalis/.gnung</homedir>-->
-
->>>>>>> 6eaadcab00557616f91fdf32d4fd2de3acb7f50c
             </configuration>
           </execution>
         </executions>
@@ -208,7 +148,6 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
-<<<<<<< HEAD
     </dependency>
     <dependency>
       <groupId>io.magentys</groupId>
@@ -230,25 +169,5 @@
       <artifactId>selenium-support</artifactId>
       <version>2.53.0</version>
     </dependency>
-
-=======
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.jayway.restassured</groupId>
-      <artifactId>rest-assured</artifactId>
-      <version>2.9.0</version>
-    </dependency>
-    <dependency>
-      <groupId>io.magentys</groupId>
-      <artifactId>cherry</artifactId>
-      <version>0.0.8</version>
-    </dependency>
-    <dependency>
-      <groupId>io.magentys</groupId>
-      <artifactId>cherry-junit</artifactId>
-      <version>0.0.1</version>
-    </dependency>
->>>>>>> 6eaadcab00557616f91fdf32d4fd2de3acb7f50c
   </dependencies>
 </project>
