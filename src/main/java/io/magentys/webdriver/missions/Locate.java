@@ -2,6 +2,7 @@ package io.magentys.webdriver.missions;
 
 import io.magentys.Agent;
 import io.magentys.Mission;
+import io.magentys.webdriver.WebScreenElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WebDriver;
@@ -13,6 +14,8 @@ public class Locate implements Mission<WebElement> {
     public Locate(final By by){
         this.by = by;
     }
+
+
 
     @Override
     public WebElement accomplishAs(Agent agent) {
