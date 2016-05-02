@@ -5,7 +5,7 @@
 This is a set of WebDriver Missions for Cherry Framework: **[Cherry](https://github.com/MagenTys/cherry)** project.
 
 Have a look at our full documentation found at:           
-[http://magentys.github.io/cherry](http://magentys.github.io/cherry).
+[http://cherryframe.work](http://cherryframe.work).
             
             
 * Developers: [Kostas Mamalis](@mamalisk)
